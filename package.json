@@ -4,10 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build --sourcemap",
     "serve": "vite preview",
-    "server": "node server.js"
+    "server": "node server.js",
+    "netlify-dev": "netlify dev"
   },
   "rocketCritical": {
     "dependencies": [

@@ -66,4 +66,16 @@ export default defineConfig({
       components: path.resolve(__dirname, "./src/components"),
     },
   },
+  server: {
+    port: 5173, // Vite default port
+    strictPort: false,
+    proxy: {
+      // Proxy /api to Netlify functions
+      "/api": {
+        target: "http://localhost:8888",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+      },
+    },
+  },
 });

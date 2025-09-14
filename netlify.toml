@@ -7,3 +7,7 @@
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
+
+[dev]
+  framework = "vite"       # auto-detects Vite
+  # remove the port line to avoid conflicts
