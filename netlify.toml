@@ -11,3 +11,5 @@
 [dev]
   framework = "vite"       # auto-detects Vite
   # remove the port line to avoid conflicts
+[build.environment]
+  NODE_VERSION = "18"
