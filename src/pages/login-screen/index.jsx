@@ -43,7 +43,7 @@ const LoginScreen = () => {
   return (
     <>
       <Helmet>
-        <title>Login - DisasterGuard | Emergency Preparedness Platform</title>
+        <title>Login - DisasterEd | Emergency Preparedness Platform</title>
         <meta
           name="description"
           content="Secure login to DisasterGuard - Your comprehensive disaster preparedness and emergency management platform for educational institutions."
@@ -132,7 +132,7 @@ const LoginScreen = () => {
                       <Icon name="Shield" size={32} className="text-primary" />
                     </div>
                     <h2 className="text-2xl font-bold text-foreground mb-2">
-                      Welcome to DisasterGuard
+                      Welcome to DisasterEd
                     </h2>
                     <p className="text-muted-foreground">
                       Sign in to access disaster preparedness resources and
