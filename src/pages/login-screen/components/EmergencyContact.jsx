@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from '../../../components/AppIcon';
 
 const EmergencyContact = ({ className = "" }) => {
-  const emergencyNumber = "911";
+  const emergencyNumber = "100";
   const campusSecurityNumber = "(555) 123-4567";
 
   const handleEmergencyCall = (number) => {
